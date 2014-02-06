@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nTurtle demo</title>
+	<style type='text/css'>
+		canvas {
+			border: 1px solid #000000;
+		}
+	</style>
+</head>
+<body>
+	<div id='canvas-container'></div>
+	<script type='text/javascript' src='nturtle.js'></script>
+	<script type='text/javascript'>
+		var turtle = new nTurtle('canvas-container', 1000, 1000);
+		turtle.fd(10);
+		turtle.rt(120);
+		turtle.fd(10);
+		turtle.text("Hello!");
+		turtle.rt(120);
+		turtle.fd(10);
+		// turtle.pu();
+		turtle.rt(120);
+		turtle.fd(10);
+		// turtle.fd(50);
+	</script>
+</body>
+</html>
